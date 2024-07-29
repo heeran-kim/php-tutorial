@@ -1,0 +1,28 @@
+{
+    // Path to the PHP executable
+    "php.validate.executablePath": "/opt/homebrew/bin/php",
+    
+    // Run validation when typing
+    "php.validate.run": "onType",
+    
+    // Specify the PHP version for Intelephense
+    "intelephense.environment.phpVersion": "8.3.9",
+    
+    // Set the maximum file size for Intelephense to process
+    "intelephense.files.maxSize": 1000000,
+    
+    // Disable basic PHP suggestions to avoid conflicts with Intelephense
+    "php.suggest.basic": false,
+    
+    // Enable automatic alignment for PHP formatting
+    "phpfmt.enable_auto_align": true,
+    
+    // Set the number of spaces for indentation in PHP formatting
+    "phpfmt.indent_with_space": 4,
+    
+    // Path to the PHP executable for debugging
+    "php.debug.executablePath": "/opt/homebrew/bin/php",
+    
+    // Port for Xdebug to listen on
+    "php.debug.port": 9003
+  }
